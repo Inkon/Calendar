@@ -1,0 +1,174 @@
+.btn-vk {
+    color: #fff;
+    background-color: #587ea3 !important;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-vk:focus {
+    color: #fff;
+    background-color: #466482 !important;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-vk:hover {
+    color: #fff !important;
+    background-color: #466482 !important;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998 !important;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook:focus {
+    color: #fff;
+    background-color: #2d4373 !important;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook:hover {
+    color: #fff !important;
+    background-color: #2d4373 !important;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-google {
+    color: #fff;
+    background-color: #dd4b39 !important;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-google:focus {
+    color: #fff;
+    background-color: #c23321 !important;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-google:hover {
+    color: #fff !important;
+    background-color: #c23321 !important;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-social {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+
+.btn-social:focus {
+    outline: none !important;
+}
+
+.btn-social > :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.btn-social.btn-lg {
+    padding-left: 61px
+}
+
+.btn-social.btn-lg > :first-child {
+    line-height: 45px;
+    width: 45px;
+    font-size: 1.8em
+}
+
+.vertical-offset-150 {
+    padding-top: 150px;
+}
+
+body {
+    padding-top: 50px !important;
+}
+
+.content {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.jumbotron-calendar-color {
+    padding-top: 25px;
+    background-color: #f8f8f8 !important;
+}
+
+#jumbotron-calendar-filters {
+    padding: 20px;
+}
+
+#filter1 {
+    background-color: #DC143C;
+}
+
+#filter2 {
+    background-color: #483D8B;
+}
+
+#filter3 {
+    background-color: #1E90FF;
+}
+
+#filter4 {
+    background-color: #008000;
+}
+
+.navbar-login {
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-user-icon {
+    font-size: 87px !important;
+}
+
+#toggleEditFiltersMode, .filterControls {
+    margin-left: 10px;
+}
+
+.email-invite-input {
+    margin-bottom: 5px;
+}
+
+.inline-invite-button {
+    width: 100px;
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    background: white;
+}
+
+#overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#sendInviteButton {
+    margin-bottom: 5px;
+}

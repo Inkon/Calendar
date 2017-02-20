@@ -1,0 +1,33 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:b="urn:import:org.gwtbootstrap3.client.ui">
+
+    <g:HTMLPanel>
+        <b:Container>
+            <b:Row addStyleNames="vertical-offset-150">
+                <b:Column size="MD_4" offset="MD_4">
+                    <b:Panel>
+                        <b:PanelHeader>
+                            <b:Heading size="H3" text="Войти через социальные сети"/>
+                        </b:PanelHeader>
+                        <b:PanelBody>
+                            <b:Form>
+                                <b:FieldSet>
+                                    <b:FormGroup addStyleNames="text-center">
+                                        <b:Button ui:field="loginWithVkontakte" icon="VK" text="Войти через ВКонтакте"
+                                                  type="PRIMARY" size="LARGE" styleName="btn btn-social btn-vk"/>
+                                    </b:FormGroup>
+                                    <b:FormGroup addStyleNames="text-center">
+                                        <b:Button ui:field="loginWithGoogle" icon="GOOGLE" text="Войти через Google"
+                                                  type="PRIMARY" size="LARGE" styleName="btn btn-social btn-google"/>
+                                    </b:FormGroup>
+                                </b:FieldSet>
+                            </b:Form>
+                        </b:PanelBody>
+                    </b:Panel>
+                </b:Column>
+            </b:Row>
+        </b:Container>
+    </g:HTMLPanel>
+
+</ui:UiBinder>

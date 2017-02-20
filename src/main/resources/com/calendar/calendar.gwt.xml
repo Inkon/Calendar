@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.6.2//EN"
+        "http://google-web-toolkit.googlecode.com/svn/tags/1.6.2/distro-source/core/src/gwt-module.dtd">
+
+<module rename-to='calendar'>
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+    <inherits name="org.gwtbootstrap3.GwtBootstrap3"/>
+    <inherits name="org.gwtbootstrap3.extras.fullcalendar.FullCalendar"/>
+    <inherits name="com.google.api.gwt.oauth2.OAuth2"/>
+    <inherits name="org.gwtbootstrap3.extras.notify.Notify"/>
+    <inherits name="org.gwtbootstrap3.extras.datetimepicker.DateTimePicker"/>
+    <inherits name="org.gwtbootstrap3.extras.toggleswitch.ToggleSwitch"/>
+
+    <source path="client"/>
+    <source path="shared"/>
+    <entry-point class='com.calendar.client.Main'/>
+</module>

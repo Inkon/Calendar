@@ -1,0 +1,18 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:b="urn:import:org.gwtbootstrap3.client.ui">
+    <g:HTMLPanel ui:field="calendarContainer">
+        <b:InputGroup ui:field="quickCreate" visible="false">
+            <b:Popover title="Быстрое создание события"
+                       content="Например: &quot;встреча послезавтра 10:00 - 11:00&quot; или &quot;занятие в эту пятницу до 12:00&quot;"
+                       placement="BOTTOM">
+                <b:TextBox ui:field="quickCreateTextBox" placeholder="Встреча в следующую пятницу в 16:00"
+                           autoComplete="false"/>
+            </b:Popover>
+            <b:InputGroupButton>
+                <b:Button ui:field="quickCreateButton" type="PRIMARY" text="Создать"/>
+            </b:InputGroupButton>
+        </b:InputGroup>
+        <br/>
+    </g:HTMLPanel>
+</ui:UiBinder>

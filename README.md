@@ -1,1 +1,1 @@
-# Netcracker_project
+Demo http://ec2-35-162-112-166.us-west-2.compute.amazonaws.com/calendar/

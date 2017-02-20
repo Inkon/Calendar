@@ -1,0 +1,28 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:b="urn:import:org.gwtbootstrap3.client.ui"
+>
+    <g:HTMLPanel>
+        <!--Add filter modal-->
+        <b:Modal title="Добавить фильтр" closable="true" fade="true" dataBackdrop="STATIC" dataKeyboard="true"
+                 b:id="addFilterModal" ui:field="addFilterModal">
+            <b:ModalBody>
+                <b:FormGroup>
+                    <b:FormLabel for="filterName">Название фильтра</b:FormLabel>
+                    <b:InlineHelpBlock iconType="EXCLAMATION_TRIANGLE"/>
+                    <b:TextBox placeholder="Введите название" b:id="filterName" ui:field="filterName"/>
+                </b:FormGroup>
+
+                <b:FormGroup>
+                    <b:FormLabel for="filterColor">Цвет фильтра</b:FormLabel>
+                    <b:InlineHelpBlock iconType="EXCLAMATION_TRIANGLE"/>
+                    <b:TextBox addStyleNames="jscolor" value="ab2567" b:id="filterColor" ui:field="colorPicker"/>
+                </b:FormGroup>
+            </b:ModalBody>
+            <b:ModalFooter>
+                <b:Button type="PRIMARY" ui:field="addFilter" dataLoadingText="Добавление...">Добавить</b:Button>
+                <b:Button type="DANGER" ui:field="closeModal" dataDismiss="MODAL">Отмена</b:Button>
+            </b:ModalFooter>
+        </b:Modal>
+    </g:HTMLPanel>
+</ui:UiBinder>
